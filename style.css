@@ -1,0 +1,314 @@
+*
+{
+  margin: 0;
+  padding: 0;
+}
+body
+{
+  font-family: sans-serif;
+}
+#nav-bar
+{
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+/* Insert the background-image color by selecting class navbar as below */
+
+/* previous colors used as background-image was : #a517ba, #5f1782 */
+/* new colors used below as background-image is: #d3dfe8, #35668f */
+.navbar
+{
+  background-image: linear-gradient(to right, #91eb83, #168c12);
+  padding: 0 !important;
+}
+
+/* Now resize the logo by selecting the class navbar-brand */
+.navbar-brand img
+{
+  height: 80px;
+  /* padding-left: 10px; ------when padding-left is uncommented, the  border-radius code is not working properly. so, i have commented it */
+  border-radius: 50%;
+}
+
+/* Give padding top and bottom 0 and left and right 10px to all nav bars list items */
+
+.navbar-nav li
+{
+  padding: 0 10px;
+}
+.navbar-nav li a
+{
+  color:  #043814 !important;
+  font-weight: 600;
+  float: right;
+  text-align: left;
+}
+.fa-bars
+{
+  color:  #043814;
+  font-size: 30px !important;
+}
+.navbar-toggler
+{
+  outline: none !important;
+}
+
+
+/* ......................Banner section.................... */
+
+
+#banner
+{
+  background-image: linear-gradient(to right,  #91eb83, #168c12);
+  color: #043814;
+  padding-top: 5%;
+}
+.promo-title
+{
+  font-size: 40px;
+  font-weight: 600;
+  margin: 10px;
+}
+.play-btn
+{
+  width: 30px;
+  margin: 20px;
+}
+#banner a
+{
+  color: #043814;
+  text-decoration: none;
+}
+.img-fluid
+{
+  image-resolution: 400px;
+  width: 220px;
+  height: 50px;
+  /* border-radius: 30%; */
+}
+.button-img
+{
+  width: 100%;
+  height: 100px;
+}
+
+
+/* SERVICES SECTION */
+
+
+#services
+{
+  background-image: linear-gradient(to bottom,  #fff, #999920);
+  color: #043814;
+  padding-top: 5%;
+}
+/* {
+ padding: 40px 0;
+} */
+.service-img
+{
+  width: 100%;
+  margin-top: 20px;
+}
+.services
+{
+  padding: 20px;
+}
+.services h4
+{
+  padding: 5px;
+  margin-top: 25px;
+  text-transform: uppercase;
+}
+
+.title::before
+{
+  content: "";
+  background: #7b1798;
+  height: 5px;
+  width: 200px;
+  margin-left:auto;
+  margin-right: auto;
+  display: block;
+  transform: translateY(63px);
+}
+
+.title::after
+{
+  content: "";
+  background: #7b1798;
+  height: 10px;
+  width: 50px;
+  margin-left:auto;
+  margin-right: auto;
+  display: block;
+  margin-bottom: 40px;
+  transform: translateY(8px);
+
+}
+#services .btn-primary
+{
+  box-shadow: none;
+  padding: 8px 25px;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  background-image: linear-gradient(to right, #168c12, #043814);
+}
+
+
+/* About US Section */
+
+#about-us
+{
+  background-image: linear-gradient(to bottom, #999920, #fff);
+  color: #043814;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.about-title
+{
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 8%;
+}
+#about-us ul li
+{
+  margin: 10px 0px;
+}
+
+.img-fluid
+{
+  width: 100%;
+  padding-top: 60px;
+  padding-bottom: 50px;
+}
+#about-us ul
+{
+  margin-left: 20px;
+}
+
+
+/* Testimonials Section */
+
+
+#testimonials{
+  background-image: linear-gradient(to bottom,  #fff, #999920);
+  margin: 100px 0;
+  color: #043814;
+}
+.testimonials
+{
+  border-left: 4px solid #7b1798;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.testimonials img
+{
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  margin: 0 10px;
+}
+.user-detail
+{
+  display: inline-block;
+  font-size: 12px;
+
+}
+
+
+/* Social Media Section */
+
+#social-media
+{
+  background-image: linear-gradient(to bottom,  #ffff, #168c12);
+  color: #043814;
+  padding: 100px 0px;
+}
+#social-media p
+{
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.social-icons img
+{
+  width: 60px;
+  transition: 0.5s;
+}
+.social-icons a:hover img
+{
+  transform: translateY(-10px);
+}
+
+
+/* Footer Section */
+
+
+#footer
+{
+  background-image: linear-gradient(to bottom,  #ffff, #168c12);
+  color: #043814;
+  height: 500px;
+}
+
+.footer-img
+{
+  width: 100%;
+  height: 100px;
+}
+.footer-box
+{
+  padding: 20px;
+}
+.footer-box img
+{
+  /* width: 150px; */
+  width: 100%;
+  height: 50%;
+  margin-bottom: 20px;
+}
+.footer-box .fa
+{
+  margin-right: 8px;
+  font-size: 25px;
+  height: 40px;
+  width: 40px;
+  color: #fff;
+  text-align: center;
+  padding-top: 7px;
+  border-radius: 2px;
+  background-image: linear-gradient(to right, #168c12, #043814);
+}
+
+.footer-box .form-control
+{
+  box-shadow: none !important;
+  border: none;
+  border-radius: 0;
+  margin-top: 25px;
+  max-width: 250px;
+}
+.footer-box .btn-primary
+{
+  box-shadow: none !important;
+  border: none;
+  border-radius: 0;
+  margin-top: 30px;
+  background-image: linear-gradient(to right,  #168c12, #043814);
+}
+hr
+{
+  background-color: #fff;
+}
+.copyright
+{
+  margin-bottom: 0;
+  padding-bottom: 20px;
+  text-align: center;
+}
